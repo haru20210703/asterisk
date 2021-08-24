@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="http://<?php echo $_SERVER['SERVER_ADDR']?>/assets/css/bootstrap.min.css">
+	<script type="text/javascript" src="http://<?php echo $_SERVER['SERVER_ADDR']?>/assets/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="http://<?php echo $_SERVER['SERVER_ADDR']?>/assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="http://<?php echo $_SERVER['SERVER_ADDR']?>/assets/js/moment.min.js"></script>
+	<script type="text/javascript" src="http://<?php echo $_SERVER['SERVER_ADDR']?>/assets/js/Chart.min.js"></script>
+	<script type="text/javascript" src="http://<?php echo $_SERVER['SERVER_ADDR']?>/assets/js/Chartjs/samples/utils.js"></script>
+	<script type="text/javascript" src="http://<?php echo $_SERVER['SERVER_ADDR']?>/assets/js/chartjs-plugin-streaming.min.js"></script>
+	<style media="screen"></style>
+	<title>asterisk</title>
+</head>
+<body>
+<br>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navi" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+		</div>
+
+		<div class="collapse navbar-collapse" id="bs-navi">
+			<ul class="nav navbar-nav">
+				<li><a href="<?php echo base_url();?>">TOPページ</a></li>
+				<li><a href="<?php echo base_url();?>/bangou">電話番号管理</a></li>
+				<li><a href="<?php echo base_url();?>/cdr/to">発呼情報</a></li>
+				<li><a href="<?php echo base_url();?>/cdr/from">着呼情報</a></li>
+				<li><a href="<?php echo base_url();?>/admin">管理者画面</a></li>
+			<ul>
+		</div>
+	</div>
+</nav>
